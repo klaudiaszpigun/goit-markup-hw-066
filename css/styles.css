@@ -636,15 +636,18 @@ img {
     border-radius: 4px;
     border: 1px solid var(--WHITE);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    background-color: var(--NAVY-BLUE);
+    background-color: transparent;
     color: var(--WHITE);
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 2;
+    line-height: 1.5;
     letter-spacing: 0.48px;
-    padding: 8px 212px 8px 16px;
+    padding-left: 16px;
+    width: 264px;
+    height: 40px;
+    gap: 24px;
 }
 .newsletter-form {
     display: flex;
