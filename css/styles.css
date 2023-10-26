@@ -663,14 +663,18 @@ img {
     border: none;
     color: var(--WHITE, #FFF);
     text-align: center;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    width: 164px;
+    min-width: 164px;
     height: 40px;
+    cursor: pointer; 
+}
+.newsletter-svg {
+    margin-left: 16px;
 }
 
 
