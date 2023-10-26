@@ -622,13 +622,21 @@ img {
     fill: var(--CLOUD);
     padding: 12px;
 }
+.subscribe-paragraph {
+    color: var(--WHITE);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    margin-bottom: 16px;
+}
 .newsletter-input {
     border-radius: 4px;
     border: 1px solid var(--WHITE);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background: var(--NAVY-BLUE);
-
-
 }
 
 
