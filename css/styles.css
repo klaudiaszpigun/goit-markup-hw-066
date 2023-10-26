@@ -651,6 +651,7 @@ img {
     width: 264px;
     height: 40px;
     gap: 24px;
+
 }
 .newsletter-form {
     display: flex;
@@ -672,7 +673,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    min-width: 164px;
+    min-width: 165px;
     height: 40px;
     cursor: pointer; 
 }
