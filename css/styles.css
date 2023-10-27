@@ -636,7 +636,7 @@ img {
     margin-left: 80px;
 }
 .newsletter-label {
-    
+    gap: 24px;
 }
 .newsletter-input {
     border-radius: 4px;
