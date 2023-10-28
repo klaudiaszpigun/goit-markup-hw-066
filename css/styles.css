@@ -296,10 +296,23 @@ img {
     visibility: hidden;
     pointer-events: none;
 }
+.form {
+    display: block;
+    margin-bottom: 8px;
+}
+.label {
+    color: var(--LIGHT-SLATE);
+    font-family: ("Roboto", sans-serif);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: 0.48px;
+    }
 .modal-heading { 
     color: var(--NAVY-BLUE);
     text-align: center;
-    font-family: Roboto;
+    font-family: ("Roboto", sans-serif);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -307,11 +320,75 @@ img {
     letter-spacing: 0.32px;
     margin-bottom: 16px;
 }
+.modal-input {
+    border: none;
+    background-color: transparent;
+}
+.input-container {
+    border-radius: 4px;
+    border: 1px solid var(--NAVY-BLUE-MODAL);
+    width: 360px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.textarea {
+    border-radius: 4px;
+    border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+    width: 360px;
+    height: 120px;
+    resize: none;
+    padding-left: 16px;
+    padding-top: 8px;
 
+}
+.modal-button {
+    border-radius: 4px;
+    background: var(--IRIS);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--WHITE);
+    text-align: center;
+    font-family: ("Roboto", sans-serif);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    width: 169px;
+    height: 56px;
+    border: none;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-svg {
+    margin-left: 16px;
+}
+.privacy-politic {
+    display: inline;
 
-
-
-
+}
+.privacy-paragraph {
+    color: var(--LIGHT-SLATE);
+    font-family: ("Roboto", sans-serif);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: 0.48px;
+}
+.privacy-link {
+    color: var(--IRIS);
+    font-family: ("Roboto", sans-serif);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: 0.48px;
+    text-decoration: underline;
+}
 
 
 
