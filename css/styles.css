@@ -299,6 +299,7 @@ img {
 .form {
     display: block;
     margin-bottom: 8px;
+    position: relative; 
 }
 .label {
     color: var(--LIGHT-SLATE);
