@@ -339,7 +339,7 @@ img {
     border-color: var(--IRIS);
 }
 .input-container {
-    
+    position: relative;
 }
 .textarea {
     border-radius: 4px;
