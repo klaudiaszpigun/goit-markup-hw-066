@@ -432,7 +432,7 @@ img {
     justify-content: center;
     fill: transparent;
 }
-.checkbox:checked + .svg-checkbox {
+.checkbox:checked + span {
     background-color: var(--OCEAN);
     border: none;
     fill: var(--CLOUD);
