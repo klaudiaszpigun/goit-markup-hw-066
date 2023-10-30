@@ -336,6 +336,8 @@ img {
 }
 .modal-input:focus {
     border-color: var(--IRIS);
+}
+.modal-input:focus + .modal-svg {
     fill: var(--IRIS);
 }
 .input-container {
