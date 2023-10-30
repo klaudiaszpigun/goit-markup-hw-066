@@ -393,7 +393,7 @@ img {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.privacy-politic {
+.privacy-policy {
     display: inline;
     font-family: ("Roboto", sans-serif);
     margin-bottom: 24px;
@@ -407,7 +407,7 @@ img {
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.48px;
     display: block;
 }
