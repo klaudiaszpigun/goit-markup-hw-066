@@ -311,7 +311,7 @@ img {
     letter-spacing: 0.48px;
     display: block;
     margin-bottom: 4px;
-    }
+}
 .modal-heading { 
     color: var(--NAVY-BLUE);
     text-align: center;
@@ -365,6 +365,11 @@ img {
 .textarea:focus {
     border-color: var(--IRIS);
 }
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .modal-button {
     border-radius: 4px;
     background: var(--IRIS);
@@ -380,7 +385,7 @@ img {
     width: 169px;
     height: 56px;
     border: none;
-
+}
 .modal-svg {
     position: absolute;
     left: 16px;
