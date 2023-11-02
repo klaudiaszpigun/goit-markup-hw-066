@@ -380,12 +380,7 @@ img {
     width: 169px;
     height: 56px;
     border: none;
-}
-.button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .modal-svg {
     position: absolute;
     left: 16px;
@@ -421,7 +416,7 @@ img {
     letter-spacing: 0.48px;
     text-decoration: underline;
 }
-.svg-checkbox {
+.box-svg {
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -432,10 +427,26 @@ img {
     justify-content: center;
     fill: transparent;
 }
-.checkbox-policy:checked + .svg-cbox {
-    background-color: var(--OCEAN);
+.box-policy:checked + .box-svg {
     border: none;
+    background-color: var(--OCEAN);
     fill: var(--CLOUD);
+}
+.modal-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--WHITE);
+    cursor: pointer;
+    background-color: var(--IRIS);
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
