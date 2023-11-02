@@ -386,7 +386,6 @@ img {
     height: 56px;
     border: none;
     margin: 24px;
-    
 }
 .modal-svg {
     position: absolute;
@@ -435,7 +434,7 @@ img {
     fill: transparent;
     margin-right: 8px;
 }
-.box-policy:checked + .box-svg {
+.box-policy:checked + .privacy-label .box-svg {
     border: none;
     background-color: var(--OCEAN);
     fill: var(--CLOUD);
