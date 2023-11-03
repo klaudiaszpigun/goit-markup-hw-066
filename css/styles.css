@@ -433,11 +433,16 @@ img {
     justify-content: center;
     fill: transparent;
     margin-right: 8px;
+    padding: 0;
 }
 .box-policy:checked + .privacy-label .box-svg {
     border: none;
     background-color: var(--OCEAN);
     fill: var(--CLOUD);
+}
+.box_svg {
+    padding: 0;
+    margin: 0;
 }
 .modal-button {
     display: block;
